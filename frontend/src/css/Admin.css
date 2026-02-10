@@ -1,0 +1,18 @@
+.admin-page {
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7f9fc; /* 대시보드 느낌의 라이트 백그라운드 */
+}
+
+
+.admin-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f3c88;
+  margin-bottom: 20px;
+}
+
+.admin-section {
+  margin-top: 20px;
+}

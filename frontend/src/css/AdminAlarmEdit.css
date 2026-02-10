@@ -1,0 +1,29 @@
+.admin-alarm-modal .modal-dialog {
+  max-width: 500px; /* 원하는 너비 */
+  margin: 0; /* bootstrap 기본 margin 제거 */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050; /* bootstrap 모달보다 위로 */
+}
+
+.admin-alarm-modal .modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.admin-alarm-modal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-alarm-modal input {
+  width: 100%;
+  padding: 5px 8px;
+  margin: 5px 0 15px 0;
+  box-sizing: border-box;
+}

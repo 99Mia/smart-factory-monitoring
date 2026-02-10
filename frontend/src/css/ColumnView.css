@@ -1,0 +1,29 @@
+.column-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 70vh; /* 화면 너무 남지 않도록 높이 제한 */
+  overflow-y: auto; /* 스크롤 */
+}
+
+.data-row {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.3rem;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-size: 0.95rem;
+}
+
+.data-id {
+  color: #888; /* ID는 살짝 연하게 */
+  font-size: 0.85rem;
+  margin-right: 5.0rem;
+}
+
+.data-value {
+  color: #1e3a8a; /* 포인트 컬러 */
+  font-weight: 500;
+}

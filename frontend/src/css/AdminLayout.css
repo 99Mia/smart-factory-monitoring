@@ -1,0 +1,50 @@
+/* AdminLayout 전용 CSS */
+
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+  margin-top: 70px; /* 탑네비 높이만큼 띄우기 */
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 240px; /* 사이드바 너비만큼 띄우기 */
+  padding: 20px 50px;
+  background-color: #f5f7fa;
+  min-height: calc(100vh - 70px);
+  overflow: visible; /* 모달이 잘리지 않게 */
+}
+
+/* 사이드바 */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  position: fixed; /* 스크롤해도 고정 */
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  padding: 12px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.sidebar-item:hover {
+  background-color: #e8f1ff;
+  color: #1e6fff;
+}

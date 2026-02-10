@@ -1,0 +1,26 @@
+/* 카드 내부 텍스트 */
+.kpi-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.kpi-value {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.kpi-status {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* 차트 크기 */
+.kpi-card canvas {
+   width: 100% !important;   /* 카드 폭에 맞춤 */
+  height: 180px !important; /* 충분히 크게 */
+  margin-top: 10px;
+  max-width: 250px;         /* 너무 커지지 않게 최대 폭 제한 */
+}

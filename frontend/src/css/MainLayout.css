@@ -1,0 +1,13 @@
+.layout-body {
+  display: flex;
+  margin-top: 70px; /* 탑네비 아래 시작 */
+}
+
+/* 메인 콘텐츠 */
+.main-content {
+  flex: 1;               /* 남는 공간 모두 차지 */
+  margin-left: 250px;    /* 사이드바 너비만큼 띄워서 겹치지 않게 */
+  padding: 20px 50px;
+  background-color: #f5f7fa;
+  min-height: calc(100vh - 70px);
+}

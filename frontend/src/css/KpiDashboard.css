@@ -1,0 +1,73 @@
+/* 전체 대시보드 컨테이너 */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  background-color: #f5f7fa; /* 연한 배경 */
+  min-height: calc(100vh - 70px); /* 탑 네비 제외 */
+  box-sizing: border-box;
+}
+
+/* 상단 타이틀 영역 */
+.dashboard-header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.dashboard-header h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f3d7a; /* 현대로템 네이비 계열 */
+  margin-bottom: 30px;
+}
+
+.dashboard-header p {
+  color: #4e5d78; /* 살짝 밝은 텍스트 */
+}
+
+/* 메인 차트 영역 */
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+/* 아래부터는 Kpi.jsx 파일 css */
+
+.kpi-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* 화면 좁으면 줄바꿈 */
+  gap: 20px; /* 항목 간 간격 */
+}
+
+
+.kpi-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 2px; /* 라벨-값 간격 */
+  font-size: 14px; /* 카드보다 작게 */
+}
+
+.kpi-label {
+  font-weight: 500;
+  color: #555;
+}
+
+.kpi-value {
+  font-size: 17px;
+  color: #111;
+}
+
+.kpi-chart-value{
+  font-size: 25px;
+  font-weight: bold;
+  color: #111;
+}
+
+
+
+

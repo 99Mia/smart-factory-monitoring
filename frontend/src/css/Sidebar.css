@@ -1,0 +1,45 @@
+/* 사이드바 */
+.sidebar {
+  position: fixed;
+  top: 100px; /* 탑네비 높이 */
+  left: 0;
+  width: 250px; /* 사이드바 너비 */
+  height: calc(100vh - 70px); /* 탑네비 제외 전체 높이 */
+  background: #f4f6fb;
+  padding: 30px 20px;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  z-index: 10; /* 메인보다 위에 있도록 */
+}
+
+/* 메뉴 리스트 */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar li {
+  padding: 15px 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f3d7a;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar li:hover {
+  background: #dbe4ff;
+  color: #0f2c66;
+  transform: translateX(5px);
+}
+
+.sidebar li.active {
+  background: #1f3d7a;
+  color: #ffffff;
+  font-weight: 700;
+}

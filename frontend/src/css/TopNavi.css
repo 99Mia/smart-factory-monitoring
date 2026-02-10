@@ -1,0 +1,54 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-family: 'Noto Sans KR', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;        /* 메뉴 간격 조금 줄임 */
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;        /* 메뉴 간격 조금 줄임 */
+}
+
+.nav-item {
+  font-size: 14px;  
+  font-weight: 500;
+  color: #1f3d7a;
+  text-decoration: none;
+  padding: 6px 10px; /* 좌우 여백 줄임 */
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  background: #e0e8ff;
+  color: #0f2c66;
+}
+
+.btn-logout {
+  border: none;
+  background: #e15759;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 6px 12px;  /* 버튼 크기도 줄임 */
+}
+
+.btn-logout:hover {
+  background: #c43e46;
+}
